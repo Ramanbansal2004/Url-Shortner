@@ -40,7 +40,7 @@
             <tr>
               <td><%= num %></td>
               <td><a href="<%= shortUrl.full %>"><%= shortUrl.full %></a></td>
-              <td><a href="<%= shortUrl.short %>"><%= shortUrl.short %></a></td>
+              <td><a href="<%= shortUrl.short %>">http://localhost:5000/<%= shortUrl.short %></a></td>
               <td style="padding-left: 1.5vw;"><%= shortUrl.clicks %></td>
               <td type="button"><i class="fa-solid fa-trash mx-3" onclick="deleteUrl('<%= shortUrl._id %>');"></i></td>
               <script>
